@@ -8,7 +8,7 @@ const path = require("path");
 const cors = require("cors");
 const { type } = require("os");
 const { error } = require("console");
-const stripe = require("stripe")("sk_test_51PAVq2SAtSBHIsrz3h8gHqE4z9WQU6rY6AYJ6JfLvff3Qiy7vBdmvtrImAeNL9guVQoZ2taVCQG0jInH2K4i0OTq00Tj1QZyPI");
+
 // const { error } = require("console");
 
 app.use(express.json());
